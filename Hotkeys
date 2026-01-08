@@ -1,0 +1,37 @@
+🪟 PANEL/WINDOW MANAGEMENT
+Creating Panels
+HotkeyActionCtrl+JSplit horizontal (new panel below)Ctrl+LSplit vertical (new panel side-by-side)Ctrl+EnterSmart split (auto detects best direction)
+Navigating Between Panels
+HotkeyActionCtrl+←Move focus to left panelCtrl+→Move focus to right panelCtrl+↑Move focus to panel aboveCtrl+↓Move focus to panel below
+Moving Panels Around
+HotkeyActionShift+←Move current panel leftShift+→Move current panel rightShift+↑Move current panel upShift+↓Move current panel down
+Resizing Panels
+HotkeyActionAlt+←Make panel narrowerAlt+→Make panel widerAlt+↑Make panel tallerAlt+↓Make panel shorter
+Layout Controls
+HotkeyActionCtrl+RRotate split (vertical ↔ horizontal)Ctrl+ZZEN MODE (toggle full screen focus)
+
+⚙️ SYSTEM & UTILITIES
+HotkeyActionCtrl+Shift+EURL hints (click URLs with keyboard)Ctrl+Shift+F5Reload config (apply changes)
+
+🎯 QUICK REFERENCE CARD
+Most Used Combos:
+Ctrl+J          → Split below
+Ctrl+L          → Split right
+Ctrl+Arrows     → Navigate panels
+Alt+Arrows      → Resize panels
+Ctrl+Z          → Focus mode
+Ctrl+R          → Rotate layout
+Pro Workflow:
+1. Ctrl+L           → Split vertical (editor | terminal)
+2. Ctrl+→           → Move to right panel
+3. Ctrl+J           → Split horizontal (top terminal | bottom terminal)
+4. Alt+← (x3)       → Make right panel narrower
+5. Ctrl+Z           → Zoom into one panel when needed
+
+💡 PRO TIPS
+
+The 4px gap between windows makes it super easy to see panel boundaries
+Ctrl+Z is your best friend - toggle it to focus on one panel, then toggle back to see everything
+Ctrl+R is powerful - if a split doesn't look right, rotate it!
+Alt+Arrows for fine-tuning - hold and tap to get perfect panel sizes
+Your bright lavender borders (#b4befe) show which panel is active
