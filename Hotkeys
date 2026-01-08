@@ -1,0 +1,212 @@
+# 🎮 KITTY TERMINAL - COMPLETE HOTKEY GUIDE
+
+## 📋 CLIPBOARD OPERATIONS
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+C` | Copy to clipboard |
+| `Ctrl+Shift+V` | Paste from clipboard |
+| `Ctrl+Shift+S` | Paste from selection |
+
+---
+
+## 🪟 WINDOW/PANEL MANAGEMENT
+
+### Creating Panels
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+Enter` | Create new window/panel |
+| `Ctrl+Shift+N` | Create new OS window |
+| `Ctrl+Shift+\` | **Split vertically** (side-by-side) |
+| `Ctrl+Shift+-` | **Split horizontally** (stacked) |
+| `Ctrl+Shift+W` | Close current panel |
+
+### Navigating Between Panels
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+←` | Move to left panel |
+| `Ctrl+Shift+→` | Move to right panel |
+| `Ctrl+Shift+↑` | Move to panel above |
+| `Ctrl+Shift+↓` | Move to panel below |
+
+### Moving Panels Around
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+Alt+←` | Move current panel left |
+| `Ctrl+Shift+Alt+→` | Move current panel right |
+| `Ctrl+Shift+Alt+↑` | Move current panel up |
+| `Ctrl+Shift+Alt+↓` | Move current panel down |
+
+### Resizing Panels
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+R` | Enter resize mode |
+| `Ctrl+Shift+H` | Make panel narrower |
+| `Ctrl+Shift+L` | Make panel wider |
+| `Ctrl+Shift+K` | Make panel taller |
+| `Ctrl+Shift+J` | Make panel shorter |
+
+### Layout Controls
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+Z` | **Toggle zoom/focus** (full screen one panel) |
+| `Ctrl+Shift+Alt+L` | Switch to next layout style |
+| `Ctrl+Shift+Alt+P` | Return to previous layout |
+
+**Available Layouts:**
+- `splits` - Free-form split panels
+- `stack` - All panels stacked (zoom mode)
+- `tall` - One main panel + vertical stack
+- `fat` - One main panel + horizontal stack
+- `grid` - Even grid layout
+- `horizontal` - All panels side-by-side
+- `vertical` - All panels stacked
+
+---
+
+## 📑 TAB MANAGEMENT
+
+### Basic Tab Operations
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+T` | Create new tab |
+| `Ctrl+Shift+Q` | Close current tab |
+| `Ctrl+Shift+→` | Next tab |
+| `Ctrl+Shift+←` | Previous tab |
+| `Ctrl+Shift+.` | Move tab forward |
+| `Ctrl+Shift+,` | Move tab backward |
+| `Ctrl+Shift+Alt+T` | Rename current tab |
+
+### Jump to Specific Tab
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+1` | Jump to tab 1 |
+| `Ctrl+2` | Jump to tab 2 |
+| `Ctrl+3` | Jump to tab 3 |
+| `Ctrl+4` | Jump to tab 4 |
+| `Ctrl+5` | Jump to tab 5 |
+| `Ctrl+6` | Jump to tab 6 |
+| `Ctrl+7` | Jump to tab 7 |
+| `Ctrl+8` | Jump to tab 8 |
+| `Ctrl+9` | Jump to tab 9 |
+
+---
+
+## 📜 SCROLLING
+
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+K` | Scroll up one line |
+| `Ctrl+Shift+J` | Scroll down one line |
+| `Ctrl+Shift+Page Up` | Scroll up one page |
+| `Ctrl+Shift+Page Down` | Scroll down one page |
+| `Ctrl+Shift+Home` | Scroll to top |
+| `Ctrl+Shift+End` | Scroll to bottom |
+| `Ctrl+Shift+F` | Open scrollback in pager |
+
+---
+
+## 🔍 FONT SIZE CONTROL
+
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+=` | Increase font size |
+| `Ctrl+Shift+-` | Decrease font size |
+| `Ctrl+Shift+0` | Reset font size to default |
+
+---
+
+## 🔗 URL & TEXT HINTS
+
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+E` | **Show all URLs** (click with keyboard) |
+| `Ctrl+Shift+P` then `F` | Hint file paths |
+| `Ctrl+Shift+P` then `H` | Hint hashes (commits, etc.) |
+| `Ctrl+Shift+P` then `L` | Hint lines |
+| `Ctrl+Shift+P` then `W` | Hint words |
+
+---
+
+## 🛠️ SYSTEM & CONFIGURATION
+
+| Hotkey | Action |
+|--------|--------|
+| `Ctrl+Shift+F11` | Toggle fullscreen |
+| `Ctrl+Shift+U` | Unicode input picker |
+| `Ctrl+Shift+F2` | Edit config file |
+| `Ctrl+Shift+F5` | **Reload config** |
+| `Ctrl+Shift+F6` | Debug config |
+| `Ctrl+Shift+Escape` | Open Kitty shell |
+| `Ctrl+Shift+Delete` | Clear terminal & reset |
+
+---
+
+## 🎯 PRO TIPS
+
+### Creating Custom Layouts
+1. Open multiple panels with `Ctrl+Shift+\` and `Ctrl+Shift+-`
+2. Arrange them with `Ctrl+Shift+Alt+Arrows`
+3. Resize with `Ctrl+Shift+H/J/K/L`
+4. Switch between layout modes with `Ctrl+Shift+Alt+L`
+
+### Example Workflow: IDE-Style Layout
+```
+1. Ctrl+Shift+\          → Split vertical (editor | terminal)
+2. Ctrl+Shift+→          → Move to right panel
+3. Ctrl+Shift+-          → Split horizontal (terminal on top/bottom)
+4. Ctrl+Shift+L (x3)     → Make left panel wider
+5. Ctrl+Shift+Alt+L      → Try different layouts
+```
+
+### Quick Navigation Pattern
+- Use `Ctrl+Shift+Arrows` to jump between panels
+- Use `Ctrl+Shift+Z` to focus on one panel temporarily
+- Use `Ctrl+1-9` to switch between different tab workspaces
+
+### Power User Combo
+- `Ctrl+Shift+E` → Click URLs without mouse
+- `Ctrl+Shift+F` → Browse scrollback history
+- `Ctrl+Shift+Delete` → Clear screen and reset
+
+---
+
+## 🎨 CUSTOMIZATION NOTES
+
+All hotkeys can be modified in your `kitty.conf` file. The format is:
+```
+map <key combination> <action>
+```
+
+Example:
+```
+map ctrl+shift+x close_window
+```
+
+To see all available actions, run:
+```bash
+kitty +list-actions
+```
+
+---
+
+## 🚀 QUICK START GUIDE
+
+**First Time Setup:**
+1. Save config as `~/.config/kitty/kitty.conf`
+2. Install JetBrains Mono Nerd Font
+3. Reload Kitty with `Ctrl+Shift+F5`
+
+**Create Your First Panel Layout:**
+1. `Ctrl+Shift+\` - Split vertical
+2. `Ctrl+Shift+-` - Split horizontal  
+3. `Ctrl+Shift+Arrows` - Navigate
+4. `Ctrl+Shift+Z` - Focus mode
+
+**Most Used Hotkeys:**
+- `Ctrl+Shift+\` / `Ctrl+Shift+-` - Create panels
+- `Ctrl+Shift+Arrows` - Navigate
+- `Ctrl+Shift+T` - New tab
+- `Ctrl+Shift+Z` - Zoom/focus
+- `Ctrl+Shift+E` - URL hints
+
+Enjoy your supercharged terminal! 🔥
